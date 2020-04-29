@@ -194,12 +194,6 @@ h1 {
 
 /* Footer */
 
-.footer {
-	/* position: fixed; */
-    /* bottom: 0;
-    left: 0;
-    right: 0; */
-}
 
 .footer-item {
     display: flex;
@@ -266,7 +260,7 @@ input {
 	border-right: 0;
 	border-left: 0;
 	border-radius: 0;
-	&:focus {border-color: #111;}
+
 }
 label {
 	font-size: 1.1rem;
@@ -286,7 +280,7 @@ button {
 	cursor: pointer;
   	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
   	border-radius: remy(35px);
-  	&:focus,
-  	&:hover {background: lighten(#111, 13%);}
+  	/* &:focus,
+  	&:hover {background: lighten(#111, 13%);} */
 
 }
