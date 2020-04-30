@@ -242,7 +242,7 @@ h1 {
 	text-align: center;
 	font-weight: 600;
 	text-transform: uppercase;
-	margin: 20px 50px 0px 50px;
+	margin: 0px 50px 0px 50px;
 	border: 1px solid black;
 	border-radius: 5px;
 	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
@@ -254,6 +254,7 @@ h1 {
 	margin-top: 50px;
 	width: 30%;
 	height: 400px;
+	justify-content: space-evenly;
 	background-color: white;
 	border-radius: 0px 5px 5px 0px;
 }
@@ -274,17 +275,14 @@ label {
   }
   /* [type="text"] {color: #111;} */
 button {
-	margin: 20px 50px 0px 50px;
+	margin: 0px 140px 0px 140px;
 	padding: .5rem 2.5rem;
   	font-size: .95rem;
   	font-weight: 600;
   	text-transform: uppercase;
 	color: crimson;
-	border-radius: 8px;
+	border-radius: 3px;
 	cursor: pointer;
   	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
-  	border-radius: remy(35px);
-  	/* &:focus,
-  	&:hover {background: lighten(#111, 13%);} */
 
 }

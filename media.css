@@ -107,3 +107,12 @@
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px,-5px);
 }
+
+
+@media screen and (min-size:1367) {
+    .form,
+    .bg {
+        justify-content: space-evenly;
+        height: 564px;
+    }
+}
