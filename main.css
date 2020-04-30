@@ -12,7 +12,7 @@ body {
     display: flex;
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     justify-content: space-between;
-    padding: 20px 100px 20px 100px;
+	padding: 20px 100px 20px 100px;
    
 }
 .navbar {
@@ -193,7 +193,11 @@ h1 {
 /* Class card ends */
 
 /* Footer */
-
+.footer {
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
 
 .footer-item {
     display: flex;
