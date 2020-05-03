@@ -15,10 +15,10 @@
     .navbar {
         position: absolute;
         right: 00px;
-        height: 90vh;
-        top : 9vh;
+        height: 70vh;
+        top : 11.5vh;
         align-items: end;
-        background: rgba(255,255,255,0.3);
+        background: rgba(255,255,255,0.5);
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -30,7 +30,7 @@
     }
     .navbar a {
         color: darkred;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         font-weight: bold;
     }
 
@@ -64,7 +64,8 @@
         margin-top: -28px;
     }
     .form button {
-        margin-right: 110px;
+        margin-right: 100px;
+        margin-left: 100px;
     }
 
     .sale {
@@ -75,10 +76,17 @@
     .tab_head {
         font-size: 1rem;
         letter-spacing: 0.1em;
+        text-align: start;
+        padding: 5.5px;
     }
 
     td, th, tr {
         padding: 10px 10px;
+    }
+    .balance::-webkit-scrollbar-thumb, 
+    .detail::-webkit-scrollbar-thumb {
+        background-color: whitesmoke;
+        outline: 1px solid red;
     }
 
 
