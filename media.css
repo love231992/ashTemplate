@@ -134,7 +134,7 @@
 }
 
 
-@media screen and (min-width:1367) {
+@media screen and (min-width: 1367px) {
     .form,
     .bg {
         justify-content: space-evenly;
@@ -143,5 +143,11 @@
     .report {
         margin-top: 71px;
         height: 748px;
+    }
+    .balance, .detail {
+        height: 750px;
+    }
+    .sale {
+        margin: 25px 0 25px 0;
     }
 }
